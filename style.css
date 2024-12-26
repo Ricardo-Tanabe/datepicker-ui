@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    max-width: 215px;
+}
+
+.table-container {
+    position: absolute;
+    top: 25px;
+    border: 1px solid black;
+}
+
+caption {
+    margin: 10px 0;
+}
+
+span {
+    margin: 0 15px;
+}
+
+td {
+    padding: 5px;
+    text-align: right;
+    border: 1px solid black;
+    margin: 0;
+}
